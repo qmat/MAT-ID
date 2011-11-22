@@ -1,0 +1,8 @@
+Keynote Essentials
+1. Ensure new Keynote documents are packages not binary blobs
+This means that instead of any change, nomatter how small, requiring a complete re-load of a monolithic binary file, instead the document is really a folder full of bits and bobs, and so version control can control the individual bits and bobs. Much better.
+- Preferences > Tick "Save new documents as packages"
+2. Ensure the right pixel size for print work
+Long story short the best strategy with Keynote'09 is to put in 300dpi values for the slide's pixel size.
+- Portrait: 2480 x 3508
+- Landscape: 3508 x 2480
