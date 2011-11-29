@@ -1,8 +1,16 @@
 Keynote Essentials
+
 1. Ensure new Keynote documents are packages not binary blobs
 This means that instead of any change, nomatter how small, requiring a complete re-load of a monolithic binary file, instead the document is really a folder full of bits and bobs, and so version control can control the individual bits and bobs. Much better.
 - Preferences > Tick "Save new documents as packages"
+
 2. Ensure the right pixel size for print work
 Long story short the best strategy with Keynote'09 is to put in 300dpi values for the slide's pixel size.
 - Portrait: 2480 x 3508
 - Landscape: 3508 x 2480
+
+3. To get transparent backgrounds, set the slide background to a solid colour and then in the colour picker set the opacity slider to transparent (left hand side). Choosing 'None' as the background doesn't seem to work any more.
+
+4. To export QuickTimes for video titles etc., you need to 
+a) use 'Fixed Timing' instead of 'Manual Advance' or whatever else. Any other option will cause you grief down the line.
+b) to export with transparency, you have to tick the 'Use transparency' box at the bottom FIRST, before setting your custom export format to something that supports transparency. I suggest PNG with 'Millions of colours+' set or ProRes444 (not 422).
