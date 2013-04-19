@@ -1,7 +1,7 @@
 Keynote Essentials
 
-1. Ensure new Keynote documents are packages not binary blobs
-This means that instead of any change, nomatter how small, requiring a complete re-load of a monolithic binary file, instead the document is really a folder full of bits and bobs, and so version control can control the individual bits and bobs. Much better.
+1. Use the document format that is more open and works better with version control 
+If you check the preference to make new Keynote documents as packages, Dropbox, GitHub etc. will work much better. Behind the scenes, this means that instead of any change, nomatter how small, requiring a complete re-load of a monolithic binary file, instead the document is really a folder full of bits and bobs, and so version control can control the individual bits and bobs. Much better.
 - Preferences > Tick "Save new documents as packages"
 
 2. Ensure the right pixel size for print work
